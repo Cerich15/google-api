@@ -1,0 +1,24 @@
+.main-pane {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.nav-pane {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    font-size: 15px;
+    gap: 0.7em;
+    padding: 0.5em;
+}
+
+.nav-pane img {
+    height: 3em;
+    width: 3em;
+    border-radius: 2em;
+}
+
+.nav-pane button {
+    height: 3em;
+    width: 3em;
+}

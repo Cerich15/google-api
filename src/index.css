@@ -1,0 +1,26 @@
+:root {
+
+}
+
+
+html {
+  margin: 0;
+  padding: 0;
+  background-image: url(./assets/google-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
